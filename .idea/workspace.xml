@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84015bf7-96e6-4075-b1e6-44359d2fe407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NewAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CreateAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CreateAccounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CreateAccounts.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.CreateAccounts">
+  <component name="RunManager" selected="Application.NewAccount">
     <configuration name="CreateAccounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateAccounts" />
       <module name="seleniumPOM" />
@@ -52,8 +56,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewAccount" />
+      <module name="seleniumPOM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewAccount" />
         <item itemvalue="Application.CreateAccounts" />
         <item itemvalue="Application.Login" />
       </list>
@@ -77,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584448028146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Initial Commit&quot;">
+      <created>1584448524919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584448524919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -85,34 +104,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;Initial Commit&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="52" key="CommitChangelistDialog2" timestamp="1584448027954">
+    <state x="344" y="52" key="CommitChangelistDialog2" timestamp="1584448524810">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="344" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584448027954" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584026814854">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="344" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584448524810" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584539197927">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584538417316" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1584539197927" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584026814854" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584026814852">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584539197926">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584538417315" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1584539197926" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584026814852" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584026814851">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584539197926">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584538417314" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1584539197926" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584026814851" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584026814853">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584539197927">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584538417315" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1584539197927" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584026814853" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584448033154">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584448527240">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584448033154" />
-    <state x="397" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1584447973539">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584448527240" />
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1584541643484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1584447973539" />
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1584541643484" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.823/1440.23.1920.1057@0.23.1440.823" timestamp="1584010389452" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1584028086571" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584021985890" />

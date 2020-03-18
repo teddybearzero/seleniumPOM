@@ -1,15 +1,27 @@
+import Utilities.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class CreateAccounts {
+public class NewAccount {
 
     public static void main(String[] args) {
 
-        // Create WebDriver
-        System.setProperty("webdriver.gecko.driver", "//Users/andraemckenzie/Documents/software/geckodriver");
-        WebDriver driver = new FirefoxDriver();
+        String name = "Mary Smith";
+        String email = "mary@home.com";
+        String password = "mpass";
+        String gender;
+        String country = "United States";
+        String phoneNumber = "123456678";
+        String weeklyEmail;
+        String monthlyEmail;
+        String occasionalEmail;
+        String browserType = "Chrome";
+        WebDriver driver;
+
+        driver = DriverFactory.open(browserType);
 
         // Open Browser to Account Management Page
         driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
@@ -17,13 +29,13 @@ public class CreateAccounts {
         //Click create account
         driver.findElement(By.linkText("Create Account")).click();
 
-        driver.findElement(By.id("MainContent_txtFirstName")).sendKeys("Mary Smith");
-        driver.findElement(By.id("MainContent_txtEmail")).sendKeys("mary@home.com");
-        driver.findElement(By.xpath("//*[@id='MainContent_txtEmail']")).sendKeys("123456678");
+        driver.findElement(By.id("MainContent_txtFirstName")).sendKeys(name);
+        driver.findElement(By.id("MainContent_txtEmail")).sendKeys(email);
+        driver.findElement(By.xpath("//*[@id='MainContent_txtHomePhone']]")).sendKeys(phoneNumber);
 
         //input tag, attribute and then the value
-        driver.findElement(By.cssSelector("input[id='MainContent_txtPassword']")).sendKeys("mspass");
-        driver.findElement((By.name("ctl00$MainContent$txtVerifyPassword"))).sendKeys("mspass");
+        driver.findElement(By.cssSelector("input[id='MainContent_txtPassword']")).sendKeys(password);
+        driver.findElement((By.name("ctl00$MainContent$txtVerifyPassword"))).sendKeys(password);
 
         // interacting with radio buttons
         driver.findElement(By.id("MainContent_Female")).click();
@@ -31,7 +43,7 @@ public class CreateAccounts {
         //driver.findElement(By.cssSelector("input['ctl00$MainContent$Gender'][value='Female']")).click();
 
         //drop down menu selection
-        new Select(driver.findElement(By.id("MainContent_menuCountry"))).selectByVisibleText("United States");
+        new Select(driver.findElement(By.id("MainContent_menuCountry"))).selectByVisibleText(country);
 
         // checkbox
         driver.findElement(By.name("MainContent_checkWeeklyEmail")).click();
