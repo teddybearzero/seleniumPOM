@@ -8,7 +8,8 @@ public class CreateAccounts {
     public static void main(String[] args) {
 
         // Create WebDriver
-        System.setProperty("webdriver.gecko.driver", "//Users/andraemckenzie/Documents/software/geckodriver");
+        //System.setProperty("webdriver.gecko.driver", "//Users/andraemckenzie/Documents/software/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "//Users/teddybearzero/Documents/software/chromedriver");
         WebDriver driver = new FirefoxDriver();
 
         // Open Browser to Account Management Page

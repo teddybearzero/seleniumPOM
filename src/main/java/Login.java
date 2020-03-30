@@ -7,7 +7,8 @@ public class Login {
     public static void main(String[] args) {
 
         // Open the Web Browser
-        System.setProperty("webdriver.chrome.driver", "//Users/andraemckenzie/Documents/software/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "//Users/andraemckenzie/Documents/software/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "//Users/teddybearzero/Documents/software/chromedriver");
         WebDriver driver = new ChromeDriver();
 
         // Navigate to the web application
