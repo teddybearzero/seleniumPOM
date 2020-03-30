@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,8 @@ public class DriverFactory {
 
     public static WebDriver open(String browserType) {
         if (browserType.equalsIgnoreCase("Chrome")) {
-            System.setProperty("webdriver.chrome.driver", "//Users/andraemckenzie/Documents/software/chromedriver");
+            //System.setProperty("webdriver.chrome.driver", "//Users/andraemckenzie/Documents/software/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "//Users/teddybearzero/Documents/software/chromedriver");
             return new ChromeDriver();
         } else if (browserType.equalsIgnoreCase("FireFox")) {
             System.setProperty("webdriver.gecko.driver", "//Users/andraemckenzie/Documents/software/geckodriver");
